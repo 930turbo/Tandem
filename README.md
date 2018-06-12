@@ -48,10 +48,6 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * Virtual high-five to Alvin Wang, Alan Chang, Alex Mark, and Kevin Louie for providing the MaterializeCSS library 
