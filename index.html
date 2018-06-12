@@ -4,6 +4,8 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <!-- Tandem - Open Source game developed by Giancarlo Coelho, Peter Soboyejo, and Alex Trevino -->
   <title>Tandem</title>
 
   <!-- CSS  -->
@@ -13,13 +15,15 @@
 </head>
 
 <body>
-
+<!-- Nothing too exciting here, this is just the navbar that stays at the top of the screen -->
   <div class="navbar-fixed">
     <nav>
+    <!-- This is for the materialize library to properly pick the color and what it does -->
       <div class="nav-wrapper indigo lighten-5">
-        <a href="#!" class="brand-logo center">
+      <!-- These next three lines are all about having the little car logo link back to the main site -->
+        <a href="index.html" class="brand-logo center">
           <img src="templogo.png" height="50" width="60" </a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+          <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
             <i class="material-icons">menu</i>
           </a>
           <ul class="right hide-on-med-and-down">
@@ -40,6 +44,8 @@
     </nav>
   </div>
 
+  <!-- This HTML and the JS under it is so when the screen reaches a certain size the links go away 
+  and instead you're left with a nice smal button that opens a menu -->
   <ul class="sidenav" id="mobile-demo">
     <li>
       <a href="game.html">The Game</a>
@@ -68,6 +74,8 @@
     });
   </script>
 
+<!-- This is the gross white text that comes across the top image that says Tandem. This can be canged and 
+set to anything-->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
@@ -80,6 +88,7 @@
         <br>
         <br>
 
+<!-- This is the background banner of the Miata drifting like crazy around the track -->
       </div>
     </div>
     <div class="parallax">
@@ -87,11 +96,12 @@
     </div>
   </div>
 
-
   <div class="container">
     <div class="section">
 
       <!--   Icon Section   -->
+      <!-- This first one is all about the project. It's a little section on the home page -->
+      <!-- More fun Materialize library stuff -->
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center indigo-text text-accent-3">
@@ -105,10 +115,10 @@
         </div>
       </div>
     </div>
-
+<!-- Floating divs are cool, right?-->
   </div>
   </div>
-
+<!-- This is a continuation of the container for the section-->
   <div class="container">
     <div class="section">
 
@@ -119,20 +129,22 @@
             <i class="material-icons">chat</i>
           </h2>
           <h5 class="center">About The Community</h5>
-
-          <p class="light">Tandem is an open source project that was started in May of 2018 by Giancarlo Coelho, Peter Soboyejo, and Alex
-            Trevino. This project aims to be an open source multiplayer game that focuses on the drivers ability to control
-            their car at an angle, or a drift. The user selects their car, and joins online servers racing against others.</p>
+<!-- Ya know, commenting code is a pain in the ass lol -->
+          <p class="light">Becuase Tandem is open-source, we depend heavily on what those in the community using our project think about it. You too can help out by letting
+            us know different ways we can improve! If you want to, please feel free to visit our linked GitHub page and download the source code for yourself. From there,
+            set up an enviroment and play aroud how ever you would like to! We are very open to suggestions so don't be afraid to ask up to add anything! Constant updates will be
+            pushed, so each week expect new and exciting content and bug fixes to be added.
+          </p>
         </div>
       </div>
     </div>
-
+<!-- more floating divs -->
   </div>
   </div>
-
+<!-- AND some floating breaks -->
   <br>
   <br>
-
+<!-- slitting my wrists to justin beiber -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
     </div>
@@ -140,7 +152,7 @@
       <img src="background3.gif" alt="Unsplashed background img 3">
     </div>
   </div>
-
+<!-- I hope that you can figure out what this code does if you've gotten this far lol -->
   <footer class="page-footer indigo lighten-5">
     <div class="container">
       <div class="row">
@@ -148,25 +160,27 @@
           <h5 class="black-text">About Tandem</h5>
           <p class="black-text text-lighten-4">Tandem is an opensource multiplayer racing game made by Giancarlo Coelho, Peter Soboyejo, and Alex Trevino. This
             project couldn't be made without the generous contributions from our community, we thank you.</p>
-
-
+<!-- Looking through this code I kinda suck at formatting -->
         </div>
       </div>
     </div>
+<!-- Might be open source but I still want ReCoGnItIoN -->   
     <div class="footer-copyright">
       <div class="container black-text">
+      <!-- Look how cool I am with that little hear <3 -->
         Site made with ♡ by
         <a class="red-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho</a>
       </div>
     </div>
   </footer>
 
-
-  <!--  Scripts-->
+  <!-- Scripts at the end because that just how I roll -->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
+<!-- This stlye was only important in the beggining and frankly its not even needed. This IMPACT font family caller
+is just for the hideous TANDEM spellout on the banner above. Probably will be taken out soon but whatever. -->
+<!-- If you look at the body and main ones thats to control the body and (should control) the footer. That's the hope at least-->
 <style>
   h1 {
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
@@ -176,8 +190,18 @@
     font-weight: 300;
     line-height: 20px;
   }
-</style>
 
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+      
+</style>
 
 </body>
 
