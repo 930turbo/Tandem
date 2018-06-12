@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tandem</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper indigo lighten-5">
+            <a href="index.html" class="brand-logo center">
+              <img src="templogo.png" height="50" width="60" </a>
+              <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="game.html">The Game</a>
+                </li>
+                <li>
+                  <a href="leaderboard.html">Leaderboard</a>
+                </li>
+                <li>
+                  <a href="contribute.html">Contribute</a>
+                </li>
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+              </ul>
+          </div>
+        </nav>
+      </div>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <a href="game.html">The Game</a>
+        </li>
+        <li>
+          <a href="leaderboard.html">Leaderboard</a>
+        </li>
+        <li>
+          <a href="contribute.html">Contribute</a>
+        </li>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+      </ul>
+    
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems, options);
+        });
+    
+        // Or with jQuery
+    
+        $(document).ready(function () {
+          $('.sidenav').sidenav();
+        });
+      </script>
+
+      //This is where the game leaderboard will go lol
+
+  <footer class="page-footer indigo lighten-5">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="black-text">About Tandem</h5>
+          <p class="black-text text-lighten-4">Tandem is an opensource multiplayer racing game made by Giancarlo Coelho, Peter Soboyejo, and Alex Trevino. This
+            project couldn't be made without the generous contributions from our community, we thank you.</p>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container black-text">
+        Site made with ♡ by
+        <a class="red-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+<style>
+  h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 70px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    line-height: 20px;
+  }
+</style>
+
+
+</body>
+
+</html>
