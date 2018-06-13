@@ -45,6 +45,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 * **Giancarlo Coelho** - *Frontend and Backend* - [CoelhoComputing](https://github.com/EkoFlame)
 * **Peter Soboyejo** - *Frontend and Backend* - [DZTCommunity](https://github.com/dzt)
+* **Alex Trevino** - *Web-end Frontend* - [TrevinoPCs](https://github.com/dzt)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
