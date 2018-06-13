@@ -1,0 +1,16 @@
+Hello and welcome to Tandem!
+
+This short guide will show you how to set up the files that you just downloaded from the GitHub!
+______________
+
+1. Make sure that you leave all HTML, .gif, .png, and .jpg in the main folder. An assets folder will be created soon!
+2. Create a folder named 'css' and put all css documents inside. 
+3. Create a folder named 'js' and put all javascript documents inside. 
+4. For the readme, you can leave that out for now!
+5. Open the 'index.hmtl' and you're good to go! 
+
+TO EDIT:
+______________
+
+1. Open any html doc inside of a text editor
+2. Edit and save! 
