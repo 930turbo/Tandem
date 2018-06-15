@@ -1,4 +1,3 @@
-# Tandem 
 ![myimage-alt-tag](https://github.com/EkoFlame/Tandem/blob/master/assets/templogo.png)
   
 This is the website and all frontend/backend for our new open source project!
