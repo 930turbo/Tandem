@@ -1,7 +1,7 @@
 # Tandem 
-![Logo](https://raw.githubusercontent.com/EkoFlame/Tandem/assets/templogo.png)
-
-  This is the website and all frontend/backend for our new open source project!
+![Screenshot](templogo.png)
+  
+This is the website and all frontend/backend for our new open source project!
 
 ## Getting Started
 
