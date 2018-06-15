@@ -1,6 +1,6 @@
-# Tandem Website
+# Tandem
 
-  This is the website and all frontend/backend for my new collaberation project game with @dzt Tandem!!!
+  This is the website and all frontend/backend for our new open source project!
 
 ## Getting Started
 
@@ -23,7 +23,7 @@ Needed Software to Run:
 ```
 1. Comment code
 2. Clean up code
-3. Add four more pages
+3. Add four more pages (COMPLETED)
 4. Implement backend
 5. Load game with LibGDX Java to HTML into site
 6. Work on some more compatibility things
@@ -45,7 +45,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 
 * **Giancarlo Coelho** - *Frontend and Backend* - [CoelhoComputing](https://github.com/EkoFlame)
 * **Peter Soboyejo** - *Frontend and Backend* - [DZTCommunity](https://github.com/dzt)
-* **Alex Trevino** - *Web-end Frontend* - [TrevinoPCs](https://github.com/19trevinoa)
+* **Alex Trevino** - *Web Frontend* - [TrevinoPCs](https://github.com/19trevinoa)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
