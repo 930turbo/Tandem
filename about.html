@@ -14,123 +14,134 @@
 
 <body>
 
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper indigo lighten-5">
-            <a href="index.html" class="brand-logo center">
-              <img src="assets/templogo.png" height="60" width="200" </a>
-              <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
-                <li>
-                  <a href="game.html">Download</a>
-                </li>
-                <li>
-                  <a href="leaderboard.html">Leaderboard</a>
-                </li>
-                <li>
-                  <a href="contribute.html">Contribute</a>
-                </li>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-              </ul>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper indigo lighten-5">
+        <a href="index.html" class="brand-logo center">
+          <img src="assets/templogo.png" height="60" width="200" </a>
+          <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="game.html">Download</a>
+            </li>
+            <li>
+              <a href="leaderboard.html">Leaderboard</a>
+            </li>
+            <li>
+              <a href="contribute.html">Contribute</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="game.html">Download</a>
+    </li>
+    <li>
+      <a href="leaderboard.html">Leaderboard</a>
+    </li>
+    <li>
+      <a href="contribute.html">Contribute</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+  </ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+    });
+
+    // Or with jQuery
+
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+  <section>
+
+    <br>
+
+    <center>
+      <h1>About The Authors</h1>
+    </center>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="card-panel blue lighten-1 z-depth-1">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="assets/peter.jpg" height="100" width="100" alt="" class="circle responsive-img">
+            <!-- notice the "circle" class -->
           </div>
-        </nav>
-      </div>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li>
-          <a href="game.html">Download</a>
-        </li>
-        <li>
-          <a href="leaderboard.html">Leaderboard</a>
-        </li>
-        <li>
-          <a href="contribute.html">Contribute</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-      </ul>
-    
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var elems = document.querySelectorAll('.sidenav');
-          var instances = M.Sidenav.init(elems, options);
-        });
-    
-        // Or with jQuery
-    
-        $(document).ready(function () {
-          $('.sidenav').sidenav();
-        });
-      </script>
-
-<section>
-  <center><h1>About The Authors</h1></center>
-</br>
-  <center><p>Tandem is an open source project which relies on the LibGDX library</p></center>
-
-<br><br><br>
-
-  <div class="col s12 m8 offset-m2 l6 offset-l3">
-    <div class="card-panel blue lighten-1 z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s2">
-          <img src="assets/peter.jpg" height="100" width="100" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-        </div>
-        <div class="col s10">
-          <span class="black-text">
-            Peter!
-          </span>
+          <div class="col s10">
+            <span class="black-text">
+              Peter!
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
- 
-  <br><br>
-  
-  <div class="col s12 m8 offset-m2 l6 offset-l3">
-    <div class="card-panel purple lighten-3 z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s2">
-          <img src="assets/giancarlo.jpg" height="100" width="100" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-        </div>
-        <div class="col s10">
-          <span class="black-text">
-            Giancarlo!
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <br><br>
+    <br>
+    <br>
 
-  <div class="col s12 m8 offset-m2 l6 offset-l3">
-    <div class="card-panel red lighten-2 z-depth-1">
-      <div class="row valign-wrapper">
-        <div class="col s2">
-          <img src="assets/alex.png" height="100" width="100" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-        </div>
-        <div class="col s10">
-          <span class="black-text">
-            Alex!
-          </span>
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="card-panel purple lighten-3 z-depth-1">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="assets/giancarlo.jpg" height="100" width="100" alt="" class="circle responsive-img">
+            <!-- notice the "circle" class -->
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              Giancarlo!
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
- 
-  <br><br>
 
-</section>
+    <br>
+    <br>
 
-<br>
-<br>
-<br>
+    <div class="col s12 m8 offset-m2 l6 offset-l3">
+      <div class="card-panel red lighten-2 z-depth-1">
+        <div class="row valign-wrapper">
+          <div class="col s2">
+            <img src="assets/alex.png" height="100" width="100" alt="" class="circle responsive-img">
+            <!-- notice the "circle" class -->
+          </div>
+          <div class="col s10">
+            <span class="black-text">
+              Alex!
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+  </section>
+
+  <br>
+  <br>
+  <br>
 
   <footer class="page-footer indigo lighten-5">
     <div class="container">
@@ -147,7 +158,8 @@
     <div class="footer-copyright">
       <div class="container black-text">
         Site made with ♡ by
-        <a class="red-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho </a><a class="red-text" target="_blank" href="http://github.com/fire40">and Alex Trevino</a>
+        <a class="red-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho </a>
+        <a class="red-text" target="_blank" href="http://github.com/fire40">and Alex Trevino</a>
       </div>
     </div>
   </footer>
@@ -157,16 +169,16 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-<style>
-  h1 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-    font-size: 70px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 20px;
-  }
-</style>
+  <style>
+    h1 {
+      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+      font-size: 70px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 300;
+      line-height: 20px;
+    }
+  </style>
 
 
 </body>
