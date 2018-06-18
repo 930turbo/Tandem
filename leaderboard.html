@@ -14,61 +14,104 @@
 
 <body>
 
-    <div class="navbar-fixed">
-        <nav>
-          <div class="nav-wrapper indigo lighten-5">
-            <a href="index.html" class="brand-logo center">
-              <img src="assets\templogo.png" height="60" width="200" </a>
-              <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
-                <i class="material-icons">menu</i>
-              </a>
-              <ul class="right hide-on-med-and-down">
-                <li>
-                  <a href="game.html">The Game</a>
-                </li>
-                <li>
-                  <a href="leaderboard.html">Leaderboard</a>
-                </li>
-                <li>
-                  <a href="contribute.html">Contribute</a>
-                </li>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-              </ul>
-          </div>
-        </nav>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper indigo lighten-5">
+        <a href="index.html" class="brand-logo center">
+          <img src="assets\templogo.png" height="60" width="200" </a>
+          <a href="index.html" data-target="mobile-demo" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="game.html">Download</a>
+            </li>
+            <li>
+              <a href="leaderboard.html">Leaderboard</a>
+            </li>
+            <li>
+              <a href="contribute.html">Contribute</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
       </div>
-    
-      <ul class="sidenav" id="mobile-demo">
-        <li>
-          <a href="game.html">The Game</a>
-        </li>
-        <li>
-          <a href="leaderboard.html">Leaderboard</a>
-        </li>
-        <li>
-          <a href="contribute.html">Contribute</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-      </ul>
-    
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          var elems = document.querySelectorAll('.sidenav');
-          var instances = M.Sidenav.init(elems, options);
-        });
-    
-        // Or with jQuery
-    
-        $(document).ready(function () {
-          $('.sidenav').sidenav();
-        });
-      </script>
+    </nav>
+  </div>
 
-      //This is where the game leaderboard will go lol
+  <ul class="sidenav" id="mobile-demo">
+    <li>
+      <a href="game.html">Download</a>
+    </li>
+    <li>
+      <a href="leaderboard.html">Leaderboard</a>
+    </li>
+    <li>
+      <a href="contribute.html">Contribute</a>
+    </li>
+    <li>
+      <a href="about.html">About</a>
+    </li>
+  </ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elems = document.querySelectorAll('.sidenav');
+      var instances = M.Sidenav.init(elems, options);
+    });
+
+    // Or with jQuery
+
+    $(document).ready(function () {
+      $('.sidenav').sidenav();
+    });
+  </script>
+
+  <br>
+
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Driver 1</h2>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>500</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Driver 2</h2>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>300</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="column" style="background-color:#aaa;">
+      <h2>Driver 3</h2>
+    </div>
+    <div class="column" style="background-color:#bbb;">
+      <h2>100</h2>
+    </div>
+  </div>
+
+  <style>
+    /* Create two equal columns that floats next to each other */
+
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
 
   <footer class="page-footer indigo lighten-5">
     <div class="container">
@@ -85,7 +128,8 @@
     <div class="footer-copyright">
       <div class="container black-text">
         Site made with ♡ by
-        <a class="purple-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho </a><a class="purple-text" target="_blank" href="http://github.com/fire40">and Alex Trevino</a>
+        <a class="red-text" target="_blank" href="http://github.com/EkoFlame">Giancarlo Coelho </a>
+        <a class="red-text" target="_blank" href="http://github.com/fire40">and Alex Trevino</a>
       </div>
     </div>
   </footer>
@@ -96,16 +140,16 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
-<style>
-  h1 {
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-    font-size: 70px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 300;
-    line-height: 20px;
-  }
-</style>
+  <style>
+    h1 {
+      font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+      font-size: 70px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: 300;
+      line-height: 20px;
+    }
+  </style>
 
 
 </body>
