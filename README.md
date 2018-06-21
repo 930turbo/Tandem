@@ -40,6 +40,7 @@ Please read [CONTRIBUTING.md]() for details on our code of conduct, and the proc
 ## Versioning
 
 6.6.18 --- V.0 Alpha Release
+6.22.18 --- V.1.0 Public Beta Released 
 
 ## Authors
 
